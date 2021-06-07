@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrediktiveChallenge.Api</name>
+    </assembly>
+    <members>
+        <member name="M:PrediktiveChallenge.Api.Controllers.SetOfEquipmentController.GetCalculatedValues(System.String,System.String)">
+            <summary>
+            Function that takes the model id and year, and returns an object containing the calculated values (Market and Auction)
+            </summary>
+            <param name="id"></param>
+            <param name="year"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

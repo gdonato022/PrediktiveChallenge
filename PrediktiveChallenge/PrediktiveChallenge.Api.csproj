@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Samsung\source\repos\PrediktiveChallenge\PrediktiveChallenge\PrediktiveChallenge.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrediktiveChallenge.Application\PrediktiveChallenge.Application.csproj" />
+    <ProjectReference Include="..\PrediktiveChallenge.Domain\PrediktiveChallenge.Domain.csproj" />
+    <ProjectReference Include="..\PrediktiveChallenge.Infrastructure\PrediktiveChallenge.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
